@@ -1,4 +1,4 @@
-import { ImageSourcePropType, StyleProp, ViewStyle } from "react-native";
+import { ImageResizeMode, ImageSourcePropType, StyleProp, ViewStyle } from "react-native";
 
 export type ImageData = { data: ImageSourcePropType, id: string | number };
 
@@ -8,6 +8,7 @@ export interface ImageItemProps {
     source: ImageSourcePropType,
     width?: number,
     height?: number,
+    resizeMode?: ImageResizeMode,
     onPress?: (id: string | number) => void
 }
 
@@ -28,6 +29,10 @@ export interface CarouselProps {
      * default: ``false``
      */
     enableStepDots?: boolean,
+    /**
+     * default: ``stretch``
+     */
+    resizeMode?: ImageResizeMode,
     onIndexChange?: (index: number) => void,
     onImagePress?: (id: string | number) => void
 }

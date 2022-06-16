@@ -19,7 +19,8 @@ const ImageItem = (props: ImageItemProps) => {
             <View style={[imageStyles, { borderRadius: 10,marginHorizontal:5 }]}>
                 <Image
                     style={itemStyles.image}
-                    source={props.source} />
+                    source={props.source} 
+                    resizeMode={props.resizeMode}/>
             </View>
         </TouchableOpacity>
     );

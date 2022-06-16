@@ -26,7 +26,8 @@ const Carousel = (props: CarouselProps) => {
                 id={item.id}
                 onPress={props.onImagePress}
                 width={width}
-                height={height} />
+                height={height}
+                resizeMode={props.resizeMode ?? "stretch"} />
         );
     }, [parentLayout]);
 
