@@ -1,9 +1,9 @@
 {
   "name": "rn-image-carousel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "image carousel component for react-native (android/ios)",
   "main": "./dist/index.js",
-  "types": "./dist/types/**/*",
+  "types": "./dist/types/index.d.ts",
   "private": false,
   "files": ["dist"],
   "scripts": {
