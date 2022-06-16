@@ -19,7 +19,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "suppressImplicitAnyIndexErrors": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "./dist/types",
+    "declarationMap": true,
   },
   "exclude": ["node_modules", "dist"],
   "lib": ["es2019"],
