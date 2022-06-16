@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-carousel",
-  "version": "1.3.0",
+  "version": "1.0.0",
   "description": "image carousel component for react-native (android/ios)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepkumarmishra354/react-native-bottom-snackbar"
+    "url": "https://github.com/sandeepkumarmishra354/react-native-image-carousel"
   },
   "author": {
     "name": "sandeep mishra",
@@ -29,10 +29,10 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandeepkumarmishra354/react-native-bottom-snackbar/issues",
+    "url": "https://github.com/sandeepkumarmishra354/react-native-image-carousel/issues",
     "email": "sandeepkumarmishra354@gmail.com"
   },
-  "homepage": "https://github.com/sandeepkumarmishra354/react-native-bottom-snackbar#readme",
+  "homepage": "https://github.com/sandeepkumarmishra354/react-native-image-carousel#readme",
   "devDependencies": {
     "@types/react": "^17.0.39",
     "@types/react-native": "^0.66.15",
