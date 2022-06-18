@@ -20,10 +20,10 @@ const useCarousel = (props: CarouselProps) => {
 
     React.useEffect(() => {
         const hasLayout = parentLayout?.width && parentLayout.height;
-        if (shouldAutoPlay && hasLayout)
+        if (shouldAutoPlay && hasLayout && props.imagesData.length)
             startAutoplay();
         return stopAutoPlay;
-    }, [shouldAutoPlay, parentLayout]);
+    }, [shouldAutoPlay, parentLayout, props.imagesData]);
 
     const onParentLayoutChange = React.useCallback((e: LayoutChangeEvent) => {
         const currentLayout = e.nativeEvent.layout;

@@ -20,7 +20,7 @@ export interface CarouselProps {
      */
     autoPlay?: boolean,
     /**
-     * default: ``3000`` millis
+     * default: ``3500`` millis
      */
     autoPlayInterval?: number,
     activeDotColor?: string,

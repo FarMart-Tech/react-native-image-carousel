@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, TouchableOpacity, View } from "react-native";
+import { TOUCHABLE_ACTIVE_OPACITY } from "../constants";
 import { itemStyles } from "../styles";
 import { ImageItemProps } from "../types";
 
@@ -15,12 +16,14 @@ const ImageItem = (props: ImageItemProps) => {
     }
 
     return (
-        <TouchableOpacity onPress={onPress} activeOpacity={0.9}>
-            <View style={[imageStyles, { borderRadius: 10,marginHorizontal:5 }]}>
+        <TouchableOpacity
+            onPress={onPress}
+            activeOpacity={TOUCHABLE_ACTIVE_OPACITY}>
+            <View style={[imageStyles, itemStyles.imgContainer]}>
                 <Image
                     style={itemStyles.image}
-                    source={props.source} 
-                    resizeMode={props.resizeMode}/>
+                    source={props.source}
+                    resizeMode={props.resizeMode} />
             </View>
         </TouchableOpacity>
     );

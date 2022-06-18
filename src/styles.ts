@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { DOT_SIZE } from "./constants";
+import { DOT_CONTAINER_COLOR, DOT_SIZE } from "./constants";
 
 export const carouselStyles = StyleSheet.create({
     main: {
@@ -26,13 +26,17 @@ export const itemStyles = StyleSheet.create({
         height: "100%",
         resizeMode: "stretch",
         borderRadius: 8
+    },
+    imgContainer: {
+        borderRadius: 10,
+        marginHorizontal: 5
     }
 });
 
 export const stepDotsStyles = StyleSheet.create({
     main: {
         position: "absolute",
-        backgroundColor: "#00000070",
+        backgroundColor: DOT_CONTAINER_COLOR,
         flexDirection: "row",
         alignItems: "center",
         alignSelf: "center",
@@ -46,6 +50,6 @@ export const stepDotsStyles = StyleSheet.create({
         width: DOT_SIZE,
         height: DOT_SIZE,
         borderRadius: DOT_SIZE / 2,
-        marginHorizontal: 2
+        marginHorizontal: 4
     }
 });

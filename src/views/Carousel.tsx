@@ -46,8 +46,7 @@ const Carousel = (props: CarouselProps) => {
                 showsHorizontalScrollIndicator={false}
                 scrollEventThrottle={SCROLL_EVENT_THROTTLE}
                 snapToAlignment="center"
-                initialNumToRender={2}
-                windowSize={4}
+                initialNumToRender={3}
                 renderItem={renderItem}
                 keyExtractor={keyExtractor}
                 onScrollBeginDrag={onMomentumScrollBegin}
