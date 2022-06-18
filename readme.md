@@ -4,8 +4,12 @@
 
 ``npm install rn-image-carousel``
 
+or
+
 ``yarn add rn-image-carousel``
 
+
+![Slider Video Demo](demo/demo.webp)
 
 #### Uses
 
